@@ -1,0 +1,74 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content{
+  height: 150vh;
+}
+
+ .navbar{
+  background-color: rgb(147, 220, 240) !important;
+  
+}
+
+.register-page{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(147, 220, 240) ;
+  color: black;
+}
+
+/* .btn-primary{
+  background-color: orange;
+} */
+
+/*transection page*/
+.filters{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px gray;
+  
+}
+
+/*antd icons */
+
+.switch-icons{
+  border: 1px solid rgba(0, 0, 0, 0.674);
+  border-radius: 5px;
+  padding: 10px 15px;
+  border-radius: 7px;
+}
+
+
+.anticon svg {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active-icon {
+  color: black;
+}
+.inactive-icon {
+  color: gray;
+}
+
+.filters{
+  border: 1px solid rgba(0, 0, 0, 0.674);
+  border-radius: 7px;
+  padding: 15px 20px;
+}
+
+.btn {
+  /* background-color: orange; */
+  color: black;
+  /* border-color:  orange; */
+  cursor: pointer;
+  
+}
+
