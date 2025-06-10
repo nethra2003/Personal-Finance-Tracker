@@ -34,10 +34,10 @@ app.get('*',function (req,res) {
  });
 
 //port
-const PORT = 13.201.23.247 || process.env.PORT;
+const PORT = 8080 || process.env.PORT;
 
 //listen
-app.listen(PORT, () => {
+app.listen(PORT, 'localhost',() => {
     console.log(`server running on port ${PORT}`);
 });
 
